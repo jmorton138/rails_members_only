@@ -70,7 +70,7 @@
   li {
     float: right;
   }
-  #new-post {
+  #new-post, #home-btn {
       float: left;
   }
   

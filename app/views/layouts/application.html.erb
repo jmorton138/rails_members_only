@@ -13,6 +13,7 @@
   <body>
   <nav class="navbar">
   <ul>
+      <li id="home-btn"><%= link_to 'Home', root_path %></li>
       <li id="new-post"><%= link_to 'New Post', new_post_path %></li>
   <% if user_signed_in? %>
       
